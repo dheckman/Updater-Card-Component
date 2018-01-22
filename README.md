@@ -22,3 +22,5 @@ $ npm start
 This will start up a dev server and open a page at http://localhost:3000
 ```
 
+Alternatively, you can find the deployed page [here](https://updater-card-component.herokuapp.com/).
+
