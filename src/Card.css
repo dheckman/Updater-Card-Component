@@ -1,12 +1,7 @@
 .Card {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
   text-align: center;
   background-color: #ffffff;
   padding: 50px;
-  width: 35%;
-  margin: 0px auto;
 }
 
 #name {
@@ -51,10 +46,15 @@ a.rent-truck-btn {
   color: white;
   padding: 15px 70px;
   text-decoration: none;
-  font-size: 16px;
 }
 
 /* mobile view */
+
+@media screen and (max-width: 1260px) {
+  a.rent-truck-btn {
+    padding: 15px 30px;
+  }
+}
 
 @media screen and (max-width: 992px) {
 
@@ -62,11 +62,8 @@ a.rent-truck-btn {
     width: 80%;
   }
 
-  /* #features, .view-profile-link {
-    display: none;
-  } */
-
-  a.rent-truck-btn {
-    padding: 15px 30px;
+  #rent-truck-btn {
+    margin-top: 40px;
   }
+
 }
