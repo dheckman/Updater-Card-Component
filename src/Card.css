@@ -1,0 +1,72 @@
+.Card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 50px;
+  width: 35%;
+  margin: 0px auto;
+}
+
+#name {
+  padding: 10px;
+  color: #CDCDCD;
+}
+
+#promo-message {
+  padding: 10px;
+  color: #3C82A6;
+}
+
+#promo-code {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.fa-check {
+  color: #74CDAD;
+}
+
+.features-list {
+  list-style-type: none;
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+
+#view-profile {
+  padding: 10px;
+}
+
+a.view-profile-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#rent-truck-btn {
+  margin-top: 20px;
+}
+a.rent-truck-btn {
+  background-color: #3C82A6;
+  color: white;
+  padding: 15px 70px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* mobile view */
+
+@media screen and (max-width: 992px) {
+
+  #logo-img img {
+    width: 80%;
+  }
+
+  /* #features, .view-profile-link {
+    display: none;
+  } */
+
+  a.rent-truck-btn {
+    padding: 15px 30px;
+  }
+}

@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #F5F5F5
+}
+
+#root {
+  margin-top: 20px;
+}
